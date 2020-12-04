@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03ba3ef7-0135-4829-9d22-20dbddcaa7e8" name="Default Changelist" comment="Finished implementing Main, and ConfigFileParser.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/rice/test/pyfiles/sols/func0sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/rice/test/pyfiles/sols/func0sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/rice/test/pyfiles/sols/func3sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/rice/test/pyfiles/sols/func3sol.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k2OhfjZJFLsS408Im16dE5LI5t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FEAT" />
+  </component>
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="ConfigFileParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FEAT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.rice.parse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.rice.parse" />
+      <option name="MAIN_CLASS_NAME" value="test.rice.parse.ConfigFileParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigFileParserTest.testParseExDomainOneString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FEAT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.rice.parse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.rice.parse" />
+      <option name="MAIN_CLASS_NAME" value="test.rice.parse.ConfigFileParserTest" />
+      <option name="METHOD_NAME" value="testParseExDomainOneString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigFileParserTest.testParseTypesOneString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FEAT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.rice.parse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.rice.parse" />
+      <option name="MAIN_CLASS_NAME" value="test.rice.parse.ConfigFileParserTest" />
+      <option name="METHOD_NAME" value="testParseTypesOneString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigFileParserTest.testSpuriousParenEndTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FEAT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.rice.parse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.rice.parse" />
+      <option name="MAIN_CLASS_NAME" value="test.rice.parse.ConfigFileParserTest" />
+      <option name="METHOD_NAME" value="testSpuriousParenEndTypes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FEAT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.rice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.rice" />
+      <option name="MAIN_CLASS_NAME" value="test.rice.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.ConfigFileParserTest" />
+        <item itemvalue="JUnit.ConfigFileParserTest.testSpuriousParenEndTypes" />
+        <item itemvalue="JUnit.ConfigFileParserTest.testParseTypesOneString" />
+        <item itemvalue="JUnit.ConfigFileParserTest.testParseExDomainOneString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03ba3ef7-0135-4829-9d22-20dbddcaa7e8" name="Default Changelist" comment="" />
+      <created>1604895339752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604895339752</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Implemented main, ConfigFile, and as much of ConfigFileParser as i could">
+      <created>1606110329954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606110329954</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished implementing Main, and ConfigFileParser.">
+      <created>1606280752194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606280752194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented main, ConfigFile, and as much of ConfigFileParser as i could" />
+    <MESSAGE value="Finished implementing Main, and ConfigFileParser." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished implementing Main, and ConfigFileParser." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="725" y="255" width="526" height="603" key="FileChooserDialogImpl" timestamp="1604896109944">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="725" y="255" width="526" height="603" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1604896109944" />
+    <state width="1237" height="210" key="GridCell.Tab.0.bottom" timestamp="1606280764095">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1877" height="169" key="GridCell.Tab.0.bottom/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606279204501" />
+    <state width="1237" height="210" key="GridCell.Tab.0.bottom/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280764095" />
+    <state width="1237" height="169" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606280245866" />
+    <state width="1237" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606254260232" />
+    <state width="925" height="270" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1604897023877" />
+    <state width="1237" height="210" key="GridCell.Tab.0.center" timestamp="1606280764095">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1877" height="169" key="GridCell.Tab.0.center/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606279204500" />
+    <state width="1237" height="210" key="GridCell.Tab.0.center/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280764095" />
+    <state width="1237" height="169" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1606280245866" />
+    <state width="1237" height="196" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606254260232" />
+    <state width="925" height="270" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1604897023876" />
+    <state width="1237" height="210" key="GridCell.Tab.0.left" timestamp="1606280764094">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1877" height="169" key="GridCell.Tab.0.left/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606279204500" />
+    <state width="1237" height="210" key="GridCell.Tab.0.left/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280764094" />
+    <state width="1237" height="169" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1606280245865" />
+    <state width="1237" height="196" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606254260232" />
+    <state width="925" height="270" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1604897023876" />
+    <state width="1237" height="210" key="GridCell.Tab.0.right" timestamp="1606280764095">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1877" height="169" key="GridCell.Tab.0.right/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606279204501" />
+    <state width="1237" height="210" key="GridCell.Tab.0.right/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280764095" />
+    <state width="1237" height="169" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1606280245866" />
+    <state width="1237" height="196" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606254260232" />
+    <state width="925" height="270" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1604897023877" />
+    <state width="1237" height="210" key="GridCell.Tab.1.bottom" timestamp="1606280764095">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.bottom/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606270872907" />
+    <state width="1237" height="210" key="GridCell.Tab.1.bottom/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280764095" />
+    <state width="1237" height="210" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606280034754" />
+    <state width="1237" height="196" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606254260232" />
+    <state width="1237" height="210" key="GridCell.Tab.1.center" timestamp="1606280764095">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.center/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606270872906" />
+    <state width="1237" height="210" key="GridCell.Tab.1.center/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280764095" />
+    <state width="1237" height="210" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1606280034754" />
+    <state width="1237" height="196" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606254260232" />
+    <state width="1237" height="210" key="GridCell.Tab.1.left" timestamp="1606280764095">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.left/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606270872906" />
+    <state width="1237" height="210" key="GridCell.Tab.1.left/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280764095" />
+    <state width="1237" height="210" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1606280034753" />
+    <state width="1237" height="196" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606254260232" />
+    <state width="1237" height="210" key="GridCell.Tab.1.right" timestamp="1606280764095">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.right/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606270872907" />
+    <state width="1237" height="210" key="GridCell.Tab.1.right/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280764095" />
+    <state width="1237" height="210" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1606280034754" />
+    <state width="1237" height="196" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606254260232" />
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2" timestamp="1606280755205">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606280755205" />
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1606110343617" />
+    <state x="530" y="179" width="927" height="748" key="find.popup" timestamp="1604895943826">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="530" y="179" width="927" height="748" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1604895943826" />
+    <state x="616" y="-297" key="run.anything.popup" timestamp="1606075601550">
+      <screen x="0" y="-1080" width="1920" height="1034" />
+    </state>
+    <state x="616" y="-297" key="run.anything.popup/0.-1080.1920.1034/0.0.1280.689@0.-1080.1920.1034" timestamp="1606075601550" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1606266308987">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.-1080.1920.1034/0.0.1280.689@0.0.1280.689" timestamp="1606266308987" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/rice/parse/ConfigFileParser.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
